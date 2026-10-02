@@ -77,6 +77,12 @@ a:hover {
   color: #fff;
 }
 
+.btn-cuadrado {
+  border-radius: 4px;
+  padding: 16px 28px;
+  font-size: 21px;
+}
+
 /* HEADER */
 
 .site-header {
@@ -894,4 +900,54 @@ a:hover {
   margin-top: auto;
   color: var(--color-estrella);
   letter-spacing: 2px;
+}
+
+/* UBICACION */
+
+.ubicacion {
+  padding: clamp(56px, 8vw, 120px) clamp(18px, 5vw, 80px);
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+  gap: clamp(28px, 5vw, 72px);
+}
+
+.ubicacion-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ubicacion-direccion {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ubicacion-telefono {
+  font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  letter-spacing: .03em;
+}
+
+.ubicacion-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ubicacion-mapa {
+  min-height: 340px;
+  background: repeating-linear-gradient(135deg, #17171d 0 14px, #1c1c24 14px 28px);
+  border-radius: 6px;
+  border: 1px solid var(--color-borde);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 24px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  letter-spacing: .1em;
+  color: #8b8b98;
+  text-transform: uppercase;
 }
