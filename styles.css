@@ -951,3 +951,51 @@ a:hover {
   color: #8b8b98;
   text-transform: uppercase;
 }
+
+/* FOOTER */
+
+.site-footer {
+  background: var(--color-fondo-hero);
+  border-top: 4px solid var(--color-rojo);
+  padding: 40px clamp(18px, 5vw, 80px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo-mark-lg {
+  font-size: 34px;
+}
+
+.footer-brand .logo-sub {
+  font-size: 10px;
+}
+
+.footer-brand-text {
+  color: var(--color-texto-mute);
+  font-size: 15px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.footer-legal {
+  color: #7b7b88;
+  font-size: 14px;
+  width: 100%;
+}
