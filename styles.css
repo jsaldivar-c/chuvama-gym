@@ -376,3 +376,22 @@ a:hover {
 .hero-card-brand .logo-sub {
   font-size: 8px;
 }
+
+/* RIBBON */
+
+.ribbon {
+  background: var(--color-hueso);
+  color: var(--color-negro-lona);
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(20px, 3vw, 32px);
+  letter-spacing: .06em;
+  padding: 14px 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 34px;
+  border-top: 4px solid var(--color-negro-lona);
+  border-bottom: 4px solid var(--color-negro-lona);
+  box-shadow: 0 -6px 0 var(--color-negro-lona), 0 6px 0 var(--color-negro-lona);
+}
