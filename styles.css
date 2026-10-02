@@ -1,0 +1,42 @@
+/* Chuvama Box · Gym — landing styles */
+
+:root {
+  --color-rojo: #c8323d;
+  --color-rojo-claro: #ff6b75;
+  --color-negro-lona: #0b0b0e;
+  --color-fondo-hero: #050507;
+  --color-grafito: #16161d;
+  --color-grafito-alt: #101015;
+  --color-borde: #2a2a33;
+  --color-borde-claro: #3a3a44;
+  --color-azul-neon: #7dd3ff;
+  --color-hueso: #f3f1ee;
+  --color-texto: #f3f1ee;
+  --color-texto-tenue: #c9c6c2;
+  --color-texto-mute: #b9b6b2;
+  --color-estrella: #ffc83d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-negro-lona);
+  color: var(--color-texto);
+  font-family: 'Barlow', sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--color-azul-neon);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
