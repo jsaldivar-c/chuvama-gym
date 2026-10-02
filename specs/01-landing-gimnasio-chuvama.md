@@ -1,6 +1,6 @@
 # 01 - Landing Chuvama Box y Gimnasio
 
-- **Estado:** Aprobado
+- **Estado:** Implementado
 - **Depende de:** (ninguno)
 - **Fecha:** 2026-10-01
 - **Objetivo:** Implementar como sitio estático (HTML/CSS/JS vanilla) la landing page de una sola página para Chuvama Box y Gimnasio, a partir del diseño ya aprobado en Claude Design (`Chuvama Landing.dc.html`), lista para revisar como demo.
