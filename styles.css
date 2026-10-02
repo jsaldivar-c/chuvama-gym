@@ -395,3 +395,117 @@ a:hover {
   border-bottom: 4px solid var(--color-negro-lona);
   box-shadow: 0 -6px 0 var(--color-negro-lona), 0 6px 0 var(--color-negro-lona);
 }
+
+/* SECTION HEADINGS (shared) */
+
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  letter-spacing: .16em;
+  color: var(--color-azul-neon);
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: clamp(40px, 6vw, 76px);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+  padding: clamp(56px, 8vw, 120px) clamp(18px, 5vw, 80px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.nosotros-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nosotros-copy {
+  margin: 0;
+  color: #d9d6d2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  border: 1.5px solid var(--color-borde-claro);
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.coach-quote {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--color-grafito);
+  border: 1px solid var(--color-borde);
+  border-left: 0;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: inset 4px 0 0 var(--color-rojo);
+}
+
+.coach-avatar {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-rojo);
+  display: grid;
+  place-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+}
+
+.coach-name {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.coach-text {
+  color: var(--color-texto-mute);
+  font-size: 16px;
+}
+
+.nosotros-media {
+  position: relative;
+}
+
+.nosotros-media-frame {
+  position: absolute;
+  inset: -14px 14px 14px -14px;
+  border: 2px solid var(--color-borde-claro);
+  border-radius: 6px;
+}
+
+.nosotros-media-image {
+  position: relative;
+  aspect-ratio: 4 / 4.4;
+  background: var(--color-grafito) url(https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1000&q=70) center / cover;
+  border-radius: 6px;
+}
