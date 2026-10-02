@@ -31,6 +31,7 @@ body {
   line-height: 1.55;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  padding-bottom: 76px;
 }
 
 a {
@@ -998,4 +999,41 @@ a:hover {
   color: #7b7b88;
   font-size: 14px;
   width: 100%;
+}
+
+/* BARRA MOVIL FIJA */
+
+.mobile-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(5, 5, 7, .95);
+  border-top: 1px solid var(--color-borde);
+}
+
+.mobile-bar-btn {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.mobile-bar-btn-light {
+  background: var(--color-hueso);
+  color: var(--color-negro-lona);
+}
+
+.mobile-bar-btn-rojo {
+  background: var(--color-rojo);
+  color: #fff;
 }
